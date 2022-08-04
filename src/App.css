@@ -12,6 +12,6 @@ html {
 }
 
 .App {
-  background-color: #282c34;
+  background-color: rgba(40, 44, 52, 0.95);
   min-height: 100vh;
 }
