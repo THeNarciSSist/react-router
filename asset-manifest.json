@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-router/static/css/main.a31c0263.css",
-    "main.js": "/react-router/static/js/main.49084f5b.js",
+    "main.css": "/react-router/static/css/main.36d69683.css",
+    "main.js": "/react-router/static/js/main.a4d56362.js",
     "static/media/8.jpg": "/react-router/static/media/8.57672db489cc8c5ebbbc.jpg",
     "static/media/12.jpg": "/react-router/static/media/12.f5941b1bae2f24386db0.jpg",
     "static/media/5.jpg": "/react-router/static/media/5.5ecbc811074ac3f1f0ed.jpg",
@@ -14,13 +14,15 @@
     "static/media/3.jpg": "/react-router/static/media/3.88817c46c7c1daf05543.jpg",
     "static/media/9.jpg": "/react-router/static/media/9.b523fa8ca109f32900d9.jpg",
     "static/media/6.jpg": "/react-router/static/media/6.47ca9e2808f576e7f859.jpg",
+    "static/media/male.png": "/react-router/static/media/male.e3aa3781749f56ddb8c4.png",
+    "static/media/female.png": "/react-router/static/media/female.c58f909be94739305f6a.png",
     "static/media/logo.svg": "/react-router/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-router/index.html",
-    "main.a31c0263.css.map": "/react-router/static/css/main.a31c0263.css.map",
-    "main.49084f5b.js.map": "/react-router/static/js/main.49084f5b.js.map"
+    "main.36d69683.css.map": "/react-router/static/css/main.36d69683.css.map",
+    "main.a4d56362.js.map": "/react-router/static/js/main.a4d56362.js.map"
   },
   "entrypoints": [
-    "static/css/main.a31c0263.css",
-    "static/js/main.49084f5b.js"
+    "static/css/main.36d69683.css",
+    "static/js/main.a4d56362.js"
   ]
 }
