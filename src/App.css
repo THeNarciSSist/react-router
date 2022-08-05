@@ -9,9 +9,35 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  /* Scrollbar for FIREFOX */
+  scrollbar-color: #888 #f1f1f1;
+  scrollbar-width: thin;
 }
 
 .App {
   background-color: rgba(40, 44, 52, 0.95);
   min-height: 100vh;
+  position: relative;
+}
+
+/*Scrollbar For CHROME, SAFARI */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
