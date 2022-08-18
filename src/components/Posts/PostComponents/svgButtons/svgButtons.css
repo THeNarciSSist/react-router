@@ -1,0 +1,69 @@
+.svg-set {
+  margin-top: 10px;
+}
+
+.svg {
+  width: 20px;
+  fill: #8595a2;
+  box-shadow: 0 0 0 20px inset transparent, 0 0 0 6px transparent;
+  border-radius: 50%;
+  transition: all 0.07s linear;
+}
+
+.num {
+  margin-left: 7px;
+  color: #8595a2;
+}
+
+.svg-list {
+  list-style: none;
+  display: flex;
+  column-gap: 50px;
+}
+
+.svg-list li:nth-child(1):hover .reply {
+  box-shadow: 0 0 0 20px inset rgba(29, 155, 240, 0.1),
+    0 0 0 6px rgba(29, 155, 240, 0.1);
+  fill: rgb(29, 155, 240);
+}
+
+.svg-list li:nth-child(1):hover .num {
+  color: rgb(29, 155, 240);
+}
+.svg-list li:nth-child(2):hover .retweet {
+  box-shadow: 0 0 0 20px inset rgba(41, 227, 53, 0.1),
+    0 0 0 6px rgba(41, 227, 53, 0.1);
+  fill: rgb(41, 227, 53);
+}
+
+.svg-list li:nth-child(2):hover .num {
+  color: rgb(41, 227, 53);
+}
+.svg-list li:nth-child(3):hover .like {
+  box-shadow: 0 0 0 20px inset rgba(240, 29, 134, 0.1),
+    0 0 0 6px rgba(240, 29, 134, 0.1);
+  fill: rgb(240, 29, 134);
+}
+
+.svg-list li:nth-child(3):hover .num {
+  color: rgb(240, 29, 134);
+}
+.svg-list li:nth-child(4):hover .share {
+  box-shadow: 0 0 0 20px inset rgba(29, 155, 240, 0.1),
+    0 0 0 6px rgba(29, 155, 240, 0.1);
+  fill: rgb(29, 155, 240);
+}
+
+.svg-list li:nth-child(4):hover .num {
+  color: rgb(29, 155, 240);
+}
+
+.list-item {
+  display: flex;
+  float: left;
+  align-items: center;
+}
+
+.list-item p {
+  font-size: 1.3rem;
+}

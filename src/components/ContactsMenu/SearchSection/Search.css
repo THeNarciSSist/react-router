@@ -1,0 +1,40 @@
+.search-box {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.search {
+  border-radius: 40px;
+  padding-left: 10px;
+  border: none;
+  width: 38rem;
+  height: 5rem;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.search::placeholder {
+  font-size: 1.6rem;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.checkbox-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.checkbox-block div {
+  display: flex;
+  column-gap: 5px;
+}
+
+.checkbox-block div label {
+  font-size: 2rem;
+}

@@ -1,0 +1,49 @@
+.contacts-list {
+  height: 100%;
+}
+
+.contacts-item {
+  width: 100%;
+}
+
+.contacts-item a {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contacts-item a:hover {
+  border-top: 0.3rem solid black;
+  border-bottom: 0.3rem solid black;
+}
+
+.contacts-item div {
+  flex: 0 0 33.3333%;
+  display: flex;
+  justify-content: center;
+}
+
+.name h4 {
+  color: white;
+}
+.number {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.gender-img img {
+  width: 8%;
+  height: 8%;
+  object-fit: cover;
+}
+
+.unknown h5 {
+  font-size: 1.6rem;
+  color: black;
+}
+
+.number h5 {
+  font-size: 1.5rem;
+}

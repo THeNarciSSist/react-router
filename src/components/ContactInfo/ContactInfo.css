@@ -1,0 +1,116 @@
+.wait {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: white;
+}
+
+.user-info {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  border-bottom: 0.2rem solid black;
+}
+
+.name h4 {
+  color: white;
+}
+.number {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.male-img {
+  width: 33.333%;
+  text-align: center;
+}
+
+.female-img {
+  width: 33.333%;
+  text-align: center;
+}
+
+.male-img img {
+  width: 8%;
+  height: 8%;
+  object-fit: cover;
+}
+
+.female-img img {
+  width: 8%;
+  height: 8%;
+  object-fit: cover;
+}
+
+.unknown h5 {
+  font-size: 1.6rem;
+}
+
+.number h5 {
+  font-size: 1.5rem;
+}
+
+.user-content {
+  display: flex;
+}
+
+.user-content a {
+  flex: 0 1 8%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.03s linear;
+}
+
+.user-content a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.exit-button {
+  display: flex;
+  justify-content: center;
+}
+
+.exit-button img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.chatting-section {
+  flex: 0 1 92%;
+  display: flex;
+  justify-content: center;
+}
+
+.chat {
+  flex: 0 1 90%;
+}
+
+.chatting-list {
+  list-style: none;
+}
+.chatting-item {
+  width: 30rem;
+  height: 5rem;
+  border-radius: 20px;
+  padding: 1rem 1rem;
+  margin-top: 4rem;
+  background-color: white;
+}
+
+.chatting-item p {
+  font-size: 2rem;
+}
+
+.sender {
+  margin-left: 71%;
+}
+
+.receiver {
+  margin-right: 70%;
+}

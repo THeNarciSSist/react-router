@@ -1,0 +1,17 @@
+.author-img {
+  margin-top: 10px;
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.content {
+  font-size: 1.4rem;
+}
+
+.post-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
